@@ -1,6 +1,6 @@
 ## Library Management API
 
-To start app, run `npm install && npm start`.
+To start app, make sure to have Node.js installed, and run `npm install && npm start`.
 
 ## Design decisions
 
