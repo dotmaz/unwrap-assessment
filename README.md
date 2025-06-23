@@ -1,6 +1,6 @@
 ## Library Management API
 
-To start app, run `npm install && npm start`.
+To start app, make sure to have Node.js installed, and run `npm install && npm start`.
 
 ## Design decisions
 
@@ -15,4 +15,7 @@ To start app, run `npm install && npm start`.
 - Two customers may have the same email, as long as their IDs are unique.
 - Since no return date or checkout date is provided when you return/checkout a book, the current date (in UTC) will be set as the return_date/checkout_date in the API response.
 - A customer is allowed to checkout several copies of the same book. When they return one, the last checkout of that book is returned.
+<<<<<<< HEAD
 - Due date is stored and returned in checkouts but not used for late tracking, as the spec does not require it.
+=======
+>>>>>>> d38313eb87f3cffbbeffa1fe04b5c453337556a6
