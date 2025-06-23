@@ -4,6 +4,7 @@ To start app, make sure to have Node.js installed, and run `npm install && npm s
 
 ## Design decisions
 
+- Created API using Node.js/Express, and used TypeScript for type safety.
 - For simplicity, I used a persisted JSON database stored in db.json (automatically created by app).
 - CORS is enabled to ensure anybody can test the API with no issues.
 - Checkout IDs are randomly generated and checked for uniqueness against the DB.
